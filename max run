@@ -1,0 +1,3 @@
+o=int(input("enter the overs: "))
+maxrun=((o-1)*33)+36
+print(maxrun)
