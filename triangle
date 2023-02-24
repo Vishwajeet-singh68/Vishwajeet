@@ -1,0 +1,12 @@
+a=int(input("enter the side: "))
+b=int(input("enter the side: "))
+c=int(input("enter the side: "))
+if(a!=b and b!=c and c!=a):
+    print("scalene")
+elif(a==b or b==c or a==c):
+    print("isosceles")
+elif((a==((b**2+c**2)**0.5)) or (b==((c**2+a**2)**0.5)) or (c==((a**2+b**2)**0.5))):
+    print("right angled triangle")
+elif(((a+b)<c) or ((c+b)<a) or ((a+c)<b)):
+    print("invalid")
+
