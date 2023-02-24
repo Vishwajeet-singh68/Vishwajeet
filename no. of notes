@@ -1,0 +1,12 @@
+a=int(input("enter the amount: "))
+a=a-100
+b=a//2000
+c=a%2000
+d=c//500
+e=c%500
+f=e//100
+g=e%100
+print("no. of 2000 notes: ",b)
+print("no. of 500 notes: ",d)
+print("no. of 100 notes: ",f+1)
+
